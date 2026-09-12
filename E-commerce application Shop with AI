@@ -1,0 +1,102 @@
+E-commerce Application with AI-Personalized Recommendations – Manual Testing
+Project Overview
+This project demonstrates manual testing performed on an E-commerce application with AI-powered personalized recommendations.
+The objective was to validate core shopping flows (search, filters, product details, cart, checkout, wishlist, coupons, orders) and ensure recommendation behavior was relevant, explainable, privacy-safe, and resilient.
+
+Application Under Test
+Application: E-commerce Shop (nopCommerce demo + AI personalization build)
+Technology: nopCommerce platform with AI recommendation engine
+Testing Type: Manual Testing
+
+Testing Performed
+Smoke Testing – Login, search, cart, checkout
+
+Sanity Testing – Targeted fixes for catalog, coupons, recommendations
+
+Functional Testing – Search, filters, product details, cart, checkout, wishlist, coupons, orders
+
+Boundary Testing – Quantity limits, coupon thresholds, search inputs
+
+Negative Testing – Invalid login, invalid coupons, out-of-stock checkout, duplicate orders
+
+Resilience & Recovery Testing – Network drops, retries, cart abandonment
+
+Usability & Accessibility Testing – Error messages, responsive layouts, screen reader support
+
+Compatibility Testing – Cross-browser, mobile, responsive widths
+
+Performance Testing – Page load, search response, checkout timing
+
+Personalization Testing – Behavior profiles (electronics, fashion, repeat buyer, cold start, abandoner)
+
+Test Documentation
+The Excel workbook contains the following documentation:
+
+Summary – Scope, accounts, limitations
+
+Test Strategy – Risk-based approach and personalization rubric
+
+Detailed Test Cases – Covering all modules and recommendation scenarios
+
+Bug Log – Candidate defects (privacy leakage, duplicate orders, coupon stacking, stale recommendations)
+
+Regression Suite – Trigger-based re-run scenarios for catalog, checkout, coupons, personalization, responsive, and performance
+
+Test Accounts & Data – Synthetic profiles (electronics, fashion, repeat buyer, cold start, abandoner)
+
+Mind Map – Visual coverage of modules and testing questions
+
+Resume Highlights – Key project achievements
+
+Test Case Coverage
+Each test case includes:
+
+Test Case ID
+
+Module
+
+Test Type
+
+Risk & Priority
+
+Preconditions
+
+Test Data / Behavior
+
+Detailed Steps
+
+Expected Result
+
+Actual Result / Status
+
+Bug ID & Evidence
+
+Tools & Technologies
+Microsoft Excel / Google Sheets
+
+Web Browser DevTools
+
+nopCommerce Demo Store
+
+Synthetic test accounts and sandbox payment methods
+
+Deliverables
+Manual Test Cases
+
+Bug Log
+
+Regression Suite
+
+Test Strategy Document
+
+Test Accounts & Data Profiles
+
+Mind Map
+
+Resume Highlights
+
+Project Outcome
+The project provided practical experience in risk-based manual testing of e-commerce applications with AI personalization.
+It validated shopping flows, coupon rules, inventory transitions, duplicate order prevention, and recommendation relevance across multiple synthetic user profiles.
+Candidate defects were documented for privacy leakage, stale recommendations, coupon stacking, and responsive checkout issues.
+The project strengthened skills in functional, boundary, negative, resilience, usability, and personalization testing.
